@@ -1,3 +1,35 @@
-= heroku
+= Redmine Heroku
 
-Description goes here
+This is a Redmine plugin to help automate setting up Redmine on {Heroku}[http://heroku.com].
+
+== Features
+
+* Setup the plugin assets directory so Rails Engines will start
+* Generate and store the cookie session secret
+
+== Getting the plugin
+
+A copy of the plugin can be downloaded from {GitHub}[http://github.com/edavis10/redmine_heroku]
+
+== Installation and Setup
+
+Download the plugin to +vendor/plugins+
+
+== Usage
+
+1. Setup Redmine locally
+2. Create a Heroku application for Redmine
+3. Run the +heroku:setup+ rake task.
+4. Push your git repository and the setup changes to your Heroku application
+5. Migrate or push your database to Heroku
+
+Note: the commands in this plugin assume a Unix environment.  If you want to patch it for another environment, sent me a pull request on Github
+
+== License
+
+This plugin is licensed under the GNU GPL v2.  See COPYRIGHT.txt and GPL.txt for details.
+
+== Project help
+
+If you need help you can contact the maintainer at the Bug Tracker.  The bug tracker is located at  https://projects.littlestreamsoftware.com
+
